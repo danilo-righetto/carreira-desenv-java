@@ -1,4 +1,4 @@
-# Carreira Desenvolvedor Java - Java I
+# Carreira Desenvolvedor Java - Alura - Cursos
 
 Descrição: Primeiros passos com Java
 
@@ -6,13 +6,13 @@ Status
 ----
 Em desenvolvimento!
 
-## Tópicos
+## Cursos
 
-* A linguagem Java
-* Variáveis e fluxo
-* Começando com Orientação a Objetos
-* Arrays
-* Modificadores de acesso
+* Java I: Primeiros passos
+* Java II: Orientação a Objetos
+* Java III: Principais APIs e bibliotecas
+* Java: Dominando as Collections
+* Java 8: Tire proveito dos novos recursos da linguagem
 
 ## Pré requisitos do ambiente de desenvolvimento
 
