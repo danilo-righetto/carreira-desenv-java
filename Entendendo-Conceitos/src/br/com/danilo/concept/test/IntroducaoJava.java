@@ -5,5 +5,13 @@ public class IntroducaoJava {
 		System.out.println("Ola Mundo!");
 		
 		System.out.println("Carreira Desenvolvedor Java - Cursos");
+		
+		/*
+		 * Compilando o Codigo via linha de comando:
+		 * $ javac IntroducaoJava.java
+		 * $ java IntroducaoJava
+		 * 
+		 * Em seguida a classe sera executada.
+		 */
 	}
 }
