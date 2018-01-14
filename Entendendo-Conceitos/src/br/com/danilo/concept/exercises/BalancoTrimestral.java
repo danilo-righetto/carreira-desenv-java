@@ -21,5 +21,11 @@ public class BalancoTrimestral {
 		
 		String mediaMensal = "O valor da media mensal: R$ " + (int) gastosTrimestre / 3;
 		System.out.println(mediaMensal);
+		
+		int contador = 150;
+		while (contador < 300) {
+			System.out.println("O numero do contador e: "+ contador);
+			contador++;
+		}
 	}
 }
