@@ -7,6 +7,15 @@ public class Funcionario {
 	private String dataEntrada;
 	private String rg;
 	
+	public void mostra() {
+		System.out.println("---------- Dados do Funcionario ----------");
+		System.out.println("Nome Completo: " + this.getNomeCompleto());
+		System.out.println("Departamento: " + this.getDepartamento());
+		System.out.println("Salario: " + this.getSalario());
+		System.out.println("Data Entrada: " + this.getDataEntrada());
+		System.out.println("RG: " + this.getRg());
+	}
+	
 	public void recebeAumento(double aumento) {
 		this.setSalario(getSalario() + aumento); 
 	}

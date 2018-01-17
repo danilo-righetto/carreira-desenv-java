@@ -12,5 +12,7 @@ public class TestaFuncionario {
 		
 		System.out.println("Salario com aumento: " + righetto.getSalario());
 		System.out.println("Ganho anual: " + righetto.calculaGanhoAnual());
+		
+		righetto.mostra();
 	}
 }
