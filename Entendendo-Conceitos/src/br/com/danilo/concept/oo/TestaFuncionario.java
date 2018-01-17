@@ -33,5 +33,11 @@ public class TestaFuncionario {
 		}else {
 			System.out.println("São Diferentes");
 		}
+		
+		/* Exercicio 5 */
+		
+		righetto = lucas;
+		
+		
 	}
 }
