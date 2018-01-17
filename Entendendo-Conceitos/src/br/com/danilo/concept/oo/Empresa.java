@@ -29,4 +29,14 @@ public class Empresa {
 			this.funcionarios[i].mostra();
 		}
 	}
+	
+	public boolean contem(Funcionario f) {
+		boolean contemFuncionario = false;
+        for (int i = 0; i < this.funcionarios.length; i++) {
+			if(this.funcionarios[0] == f) {
+				contemFuncionario = true;
+			}
+		}
+		return contemFuncionario;
+    }
 }
