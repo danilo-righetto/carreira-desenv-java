@@ -23,4 +23,10 @@ public class Empresa {
 			System.out.println("Data entrada: " + this.funcionarios[i].getDataEntrada());
 		}
 	}
+	
+	public void mostraTodasAsInformacoes() {
+		for (int i = 0; i < this.funcionarios.length; i++) {
+			this.funcionarios[i].mostra();
+		}
+	}
 }
