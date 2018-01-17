@@ -31,5 +31,7 @@ public class Data {
 		this.ano = ano;
 	}
 	
-	
+	public String getDataFormatada() {
+		return this.getDia()+"/"+this.getMes()+"/"+this.getAno();
+	}
 }
