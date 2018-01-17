@@ -7,11 +7,20 @@ public class Empresa {
 	int livre = 0;
 	
 	public void adicionar(Funcionario f) {
-		this.funcionarios[this.funcionarios.length+1] = f;
-		/* Outro modo: 
-		 * 
-		 * this.funcionarios[livre] = f;
-		 * livre++;
-		 * */
+		this.funcionarios[livre] = f;
+		livre++;
+	}
+	
+	public void mostraEmpregados() {
+		for (int i = 0; i < this.funcionarios.length; i++) {
+			Funcionario func = this.funcionarios[i];
+			if(func == null) continue; 
+			System.out.println("----------- Dados os Funcionarios -----------");
+			System.out.println("Nome completo: " + this.funcionarios[i].getNomeCompleto());
+			System.out.println("Departamento: " + this.funcionarios[i].getDepartamento());
+			System.out.println("RG: " + this.funcionarios[i].getRg());
+			System.out.println("Salario - R$ " + this.funcionarios[i].getSalario());
+			System.out.println("Data entrada: " + this.funcionarios[i].getDataEntrada());
+		}
 	}
 }
