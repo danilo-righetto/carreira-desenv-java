@@ -4,15 +4,22 @@ public class Funcionario {
 	private String nomeCompleto;
 	private String departamento;
 	private double salario;
-	private String dataEntrada;
+	private Data dataEntrada;
 	private String rg;
 	
+	public Funcionario(int dia, int mes, int ano) {
+		super();
+		this.dataEntrada = new Data(dia, mes, ano);
+	}
+
 	public void mostra() {
 		System.out.println("---------- Dados do Funcionario ----------");
 		System.out.println("Nome Completo: " + this.getNomeCompleto());
 		System.out.println("Departamento: " + this.getDepartamento());
 		System.out.println("Salario: " + this.getSalario());
-		System.out.println("Data Entrada: " + this.getDataEntrada());
+		System.out.println("Data Entrada - Dia: " + this.getDataEntrada().getDia());
+		System.out.println("Data Entrada - Mes: " + this.getDataEntrada().getMes());
+		System.out.println("Data Entrada - Ano: " + this.getDataEntrada().getAno());
 		System.out.println("RG: " + this.getRg());
 	}
 	
@@ -42,18 +49,22 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	public String getDataEntrada() {
-		return dataEntrada;
-	}
-	public void setDataEntrada(String dataEntrada) {
-		this.dataEntrada = dataEntrada;
-	}
+	
 	public String getRg() {
 		return rg;
 	}
 	public void setRg(String rg) {
 		this.rg = rg;
 	}
+
+	public Data getDataEntrada() {
+		return dataEntrada;
+	}
+
+	public void setDataEntrada(Data dataEntrada) {
+		this.dataEntrada = dataEntrada;
+	}
+	
 	
 	
 }

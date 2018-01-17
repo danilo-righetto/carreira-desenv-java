@@ -2,7 +2,7 @@ package br.com.danilo.concept.oo;
 
 public class TestaFuncionario {
 	public static void main(String[] args) {
-		Funcionario righetto = new Funcionario();
+		Funcionario righetto = new Funcionario(7, 2, 2017);
 		
 		righetto.setSalario(1300.30);
 		righetto.setDepartamento("TI");
@@ -15,7 +15,7 @@ public class TestaFuncionario {
 		
 		righetto.mostra();
 		
-		Funcionario lucas = new Funcionario();
+		Funcionario lucas = new Funcionario(8, 7, 2017);
 		
 		lucas.setSalario(1300.30);
 		lucas.setDepartamento("TI");
@@ -36,7 +36,7 @@ public class TestaFuncionario {
 		
 		/* Exercicio 5 */
 		
-		righetto = lucas;
+		//righetto = lucas;
 		
 		
 	}
