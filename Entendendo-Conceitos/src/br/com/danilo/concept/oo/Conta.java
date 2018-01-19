@@ -10,6 +10,20 @@ public class Conta {
 	String dataDeNascimento;
 	
 	
+	public Conta(int numero, double saldo, String titular, int agencia, String cpf, String dataDeNascimento) {
+		super();
+		this.numero = numero;
+		this.saldo = saldo;
+		this.titular = titular;
+		this.agencia = agencia;
+		this.cpf = cpf;
+		this.dataDeNascimento = dataDeNascimento;
+	}
+	
+	public Conta() {
+		
+	}
+
 	/* Metodos */
 	void deposita(double valorASerDepositado){
 		this.saldo += valorASerDepositado;

@@ -18,6 +18,7 @@ public class TestaEmpresa {
 		lucas.setRg("1234567-8");
 		lucas.recebeAumento(200);
 		
+		
 		Empresa empresa = new Empresa();
 		empresa.funcionarios = new Funcionario[10];
 		empresa.adicionar(righetto);

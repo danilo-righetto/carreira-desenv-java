@@ -11,6 +11,14 @@ public class Funcionario {
 		super();
 		this.dataEntrada = new Data(dia, mes, ano);
 	}
+	
+	public Funcionario(String nomeCompleto) {
+		this.setNomeCompleto(nomeCompleto);
+	}
+	
+	public Funcionario() {
+		
+	}
 
 	public void mostra() {
 		System.out.println("---------- Dados do Funcionario ----------");
