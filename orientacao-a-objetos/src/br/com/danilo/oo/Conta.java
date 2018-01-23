@@ -8,12 +8,11 @@ package br.com.danilo.oo;
  */
 public class Conta {
 	/* Exercicio 1 */
-	private double saldo;
+	protected double saldo;
 	
 	/* Herança, reescrita e polimorfismo - Exercicio 2 - Inicio */
-	public void atualiza(double taxa) {
-		double soma = this.saldo * (taxa / 100);
-		this.saldo += soma;
+	protected void atualiza(double taxa) {
+		this.saldo += this.saldo * (taxa / 100);
 	}
 	/* Herança, reescrita e polimorfismo - Exercicio 2 - Fim */
 	
