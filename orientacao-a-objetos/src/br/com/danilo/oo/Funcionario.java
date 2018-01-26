@@ -12,6 +12,7 @@ abstract class Funcionario {
 	protected String nome;
 	protected double salario;
 	protected int cargo;
+	//private int senha;
 	
 	/* 1 - funcionario
 	 * 2 - gerente
@@ -22,6 +23,7 @@ abstract class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
 	
 	public abstract double getBonus();
 		/* O codigo abaixo é um mal exemplo de implementação
@@ -37,6 +39,12 @@ abstract class Funcionario {
 			return this.salario * 0.1;
 		}
 		*/
+
+
+	/*
+	public boolean autentica(int senha) {
+		return this.senha == senha;
+	}*/
 	
 	
 }
