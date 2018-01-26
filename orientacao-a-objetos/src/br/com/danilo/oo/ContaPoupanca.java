@@ -8,12 +8,15 @@ package br.com.danilo.oo;
  */
 public class ContaPoupanca extends Conta{
 	/* Herança, reescrita e polimorfismo - Exercicio 3 - inicio */
-	protected void atualiza(double taxa) {
-		this.saldo += this.saldo * ((taxa * 3) / 100);
-	}
+	
 	
 	public void deposita(double deposito) {
 		this.saldo += deposito - 0.10;
 	}
 	/* Herança, reescrita e polimorfismo - Exercicio 3 - fim */
+
+	@Override
+	protected void atualiza(double taxa) {
+		this.saldo += this.saldo * ((taxa * 3) / 100);
+	}
 }

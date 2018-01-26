@@ -10,8 +10,9 @@ package br.com.danilo.oo;
 public class TestaFuncionario {
 	/* Testa a Classe Herança */
 	public static void main(String[] args) {
-		Funcionario joao = new Funcionario();
+		Funcionario joao = new Gerente();
 		joao.setSalario(1000.00);
+		joao.getBonus();
 		System.out.println("Bonus do Funcionario: "+ joao.getBonus());
 		
 		/* Testando a Classe Gerente */

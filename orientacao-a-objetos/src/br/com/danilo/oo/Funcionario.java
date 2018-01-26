@@ -6,7 +6,7 @@ package br.com.danilo.oo;
  * @category herança, reescrita e polimorfismo
  *
  */
-public class Funcionario {
+abstract class Funcionario {
 	/* Heranca, Reescrita e Polimorfismo */
 	
 	protected String nome;
@@ -23,10 +23,10 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	
-	public double getBonus() {
-		
+	public abstract double getBonus();
 		/* O codigo abaixo é um mal exemplo de implementação
 		 * do bonus do Funcionario */
+		/*
 		if(cargo == 1) {
 			return this.salario * 0.2;
 		}else if(cargo == 2) {
@@ -36,6 +36,7 @@ public class Funcionario {
 		}else {
 			return this.salario * 0.1;
 		}
-	}
+		*/
+	
 	
 }
