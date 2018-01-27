@@ -27,6 +27,11 @@ abstract class Conta {
 	}
 	
 	public void saca(double valor) {
-		this.saldo -= valor;
+		if(this.saldo >= valor) {
+			this.saldo -= valor;
+		}else {
+			//adicionado uma excessão
+			throw new SaldoInsuficienteException(saldo);
+		}
 	}
 }
