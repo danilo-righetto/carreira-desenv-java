@@ -14,11 +14,60 @@ Em desenvolvimento!
 * Java: Dominando as Collections
 * Java 8: Tire proveito dos novos recursos da linguagem
 
+### Java I: Primeiros passos
+
+* Java I: Primeiros passos
+* JVM? JDK? JRE? O que são essas siglas?
+* Variáveis e controle de fluxo
+* Orientação a objetos e seu código melhorado
+* Modificadores de acesso e encapsulamento
+* Superando o trauma das arrays
+
+### Java II: Orientação a Objetos
+
+* Domine o paradigma de programação mais usado no mercado de trabalho
+* Entenda o que é Polimorfismo
+* Aprenda a usar o Eclipse
+* Trate os erros de sua aplicação
+* Reuse código com classes Abstratas e Interfaces
+
+###  Java III: Principais APIs e bibliotecas
+
+* Domine os principais pacotes da biblioteca padrão
+* Entenda os diferentes modificadores de acesso
+* Use pacotes para melhorar a organização dos arquivos de sua aplicação
+* Gere executáveis Jar
+* Documente seu código usando o Javadoc
+* Aprenda a usar threads
+
+### Java: Dominando as Collections
+
+* Java: Dominando as Collections
+* Vá além das principais classes e métodos das Collections
+* Aplique boas práticas de OO nos relacionamentos
+* Não tenha mais medo dos antigos Iterators
+* Set ou List, qual utilizar?
+* Equals ou hashCode de uma vez por todas
+
+### Java 8: Tire proveito dos novos recursos da linguagem
+
+* Entenda o que muda com o Java 8
+* Aprenda a percorrer uma collection com o forEach
+* Diminua a quantidade de linhas de seu código usando o Lambda
+* Faça filtos e mapeamentos em Collections usando o Stream
+* Trabalhe com a nova API de Datas
+* Dê seus primeiros passos na programação funcional
+
 ## Pré requisitos do ambiente de desenvolvimento
 
 * [Java (JDK)>= 1.8.0_151](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 * Banco de Dados (MySQL, PostgreSQL, Microsoft SQL Server, SQLite e MariaDB)
 * [Elipse EE - oxygen2](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2)
+
+
+## Documentação
+
+Acesse a pasta `Documents` para mais informações sobre o projeto.
 
 ## Autor
 
